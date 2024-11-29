@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with multi-level nested HTML lists</title>
+  </head>
+  <body>
+    <h1><i>*Shopping List*</i></h1>
+    <br />
+    <ul type="square">
+      <li>Stores:</li>
+      <ol type="I">
+        <li><i>City Mall</i></li>
+        <ol>
+          <li><i>Ramstore</i></li>
+          <ol type="1">
+            <li>Bread</li>
+            <li>Milk</li>
+            <ul type="disc">
+              <li>Cow's milk</li>
+              <li>Chocolate milk</li>
+            </ul>
+            <li>Cookies</li>
+            <li>Chocolate</li>
+            <li>Noodles</li>
+            <li>Apples</li>
+            <li>Cherry juice</li>
+          </ol>
+        </ol>
+        <li><i>Akademska</i></li>
+        <ol>
+          <li>"Dune" hard-cover</li>
+          <li>"Emma" - Jane Austen</li>
+          <li>"Circe"</li>
+        </ol>
+        <li><i>Stradivarius</i></li>
+        <ol>
+          <li>Jeans</li>
+          <li>Winter coat</li>
+        </ol>
+        <li><i>Golden Rose</i></li>
+        <ol>
+          <li>Mascara</li>
+          <li>Red lipstick</li>
+        </ol>
+      </ol>
+    </ul>
+    <br />
+    <ul type="square">
+      <li><i>Bonus:</i></li>
+      <ul type="disc">
+        <li>Friend's house</li>
+        <ul type="circle">
+          <li>My notebook</li>
+        </ul>
+      </ul>
+    </ul>
+    <br />
+    <dl>
+      <dt>
+        <b><i>My notebook</i></b>
+      </dt>
+      <dd><u>My friend borrowed it.</u></dd>
+    </dl>
+  </body>
+</html>
